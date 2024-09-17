@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A7C7E7">
+
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/navely_no_bg"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:backgroundTint="#0D47A1"
+        android:layout_gravity="center"
+        android:clipToOutline="true"
+        android:shape="oval"/>
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#0D47A1"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Name Input -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="32sp"
+            android:textColor="@color/signup_text"/>
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:hint="Enter your name"
+            android:textColorHint="#0D47A1"
+            android:backgroundTint="#0D47A1"/>
+
+        <!-- Age Input -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="32sp"
+            android:textColor="@color/signup_text"/>
+
+        <EditText
+            android:id="@+id/edtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:hint="Enter your age"
+            android:textColorHint="#0D47A1"
+            android:backgroundTint="#0D47A1"/>
+
+        <!-- Address Input -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="32sp"
+            android:textColor="@color/signup_text"/>
+
+        <EditText
+            android:id="@+id/edtAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:hint="Enter your address"
+            android:textColorHint="#0D47A1"
+            android:backgroundTint="#0D47A1"/>
+
+        <!-- Username Input -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:textSize="32sp"
+            android:textColor="@color/signup_text"/>
+
+        <EditText
+            android:id="@+id/edtUName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:hint="Enter your username"
+            android:textColorHint="#0D47A1"
+            android:backgroundTint="#0D47A1"/>
+
+        <!-- Password Input -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="32sp"
+            android:textColor="@color/signup_text"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:hint="Enter your password"
+            android:textColorHint="#0D47A1"
+            android:backgroundTint="#0D47A1"/>
+
+        <!-- Signup Button -->
+        <Button
+            android:id="@+id/btnSignupf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0D47A1"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0D47A1"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A7C7E7">
+
+    <ImageView
+        android:layout_marginTop="-150dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/navely_no_bg"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:backgroundTint="#0D47A1"
+        android:layout_gravity="center"
+        android:clipToOutline="true"
+        android:shape="oval"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="POKEDEX"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#0D47A1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:text="Username: "/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:hint="Enter username"
+            android:textColorHint="#0D47A1"
+            android:padding="10dp"
+            android:backgroundTint="#0D47A1"
+            android:singleLine="true"
+            android:id="@+id/utUname"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:text="Password: "/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:hint="Enter password"
+            android:textColorHint="#0D47A1"
+            android:padding="10dp"
+            android:backgroundTint="#0D47A1"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:id="@+id/utPass"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#0D47A1"
+        android:textColor="#FFFFFF"
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_link"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:textSize="16sp"
+        />
+</LinearLayout>
